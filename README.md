@@ -1,6 +1,5 @@
-
-Zuerst das Projekt holen.
-
+# fuse_eos32
+Is a Linux filesystem driver for the EOS32 filesystem. Implement with FUSE.
 # Bauen
 Erstelle ein Build Ordner  
 mkdir PATH_TO_CMAKE_BUILD_FOLDER
