@@ -19,7 +19,7 @@ Is a Linux filesystem driver for the EOS32 filesystem. Implemented with FUSE.
 * fuse3   
 * fuse_common
 # Root Nutzer aktivieren(Optional)
-Der Root Benutzer ist Standardmäßig unter Fuse deaktiviert. Um als Root Nutzer auf ein Fuse Dateisystem muss es aktiviert werden.
+Der Root Benutzer ist Standardmäßig unter Fuse deaktiviert. Um als Root Nutzer auf ein Fuse Dateisystem zuzugreifen, muss es aktiviert werden.
 
 Unter dem Pfad "/etc/fuse.conf" muss die Zeile "user_allow_other" hinzugefügt werden. 
 Danach muss nur noch im Befehl erwähnt werden dass der Root Nutzer erlaubt ist
